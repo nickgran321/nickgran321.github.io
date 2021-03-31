@@ -37,17 +37,17 @@
     <a-scene vr-mode-ui="enabled: false;"
              loading-screen="enabled: false;"
              arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
-             id="scene"
+             id2="scene"
              embedded
              gesture-detector>
-        <a-marker id="animated-marker"
+        <a-marker id2="animated-marker"
                   type="pattern"
                   preset="custom"
                   url="tree_assets/marker.patt"
                   raycaster="objects: .clickable"
                   emitevents="true"
                   cursor="fuse: false; rayOrigin: mouse;"
-                  id2="markerB">
+                  id2="markerA">
             <a-image src="tree_assets/asset.jpeg"
                      scale="1 1 1"
                      class="clickable"
@@ -58,4 +58,5 @@
         <a-entity camera></a-entity>
     </a-scene>
 </body>
+
 </html>
